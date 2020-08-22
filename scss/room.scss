@@ -1,0 +1,66 @@
+// img style
+li{
+  list-style: none;
+}
+.img-la{
+  img{
+  width: 100%;
+  height: 520px;
+  min-height: 520px;
+  }
+}
+.show-img > img{
+  height: 120px;
+  width: 120px;
+  cursor: pointer;
+  transition: all .6s;
+  padding-right: 5px;
+  &:hover{
+    height: 100px;
+    width: 100px;
+  }
+}
+.list-group {
+  border-radius: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0px;
+  padding-left: 10px;
+  width: 100%;
+  background: #403d394a;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+    -ms-flex-flow: row;
+      flex-flow: row;
+}
+// room price
+.room-price{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-weight: bolder;
+  font-size: 18px;
+}
+.holiday-Price{
+  font-size: 14px;
+}
+.description{
+  display: flex;
+  flex-wrap: wrap;
+  li{
+    margin: 10px 0;
+  }
+}
+//amenities
+.amenities-list{
+  display: flex;
+  flex-wrap: wrap;
+}
+.amenities-list li{
+  color: #d6d2ce;
+  &.active{
+    color: #1e2321;
+  }
+}

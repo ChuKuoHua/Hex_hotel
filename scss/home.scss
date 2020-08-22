@@ -1,0 +1,60 @@
+$white: #fff;
+
+body{
+  font-family: Microsoft JhengHei;
+}
+a:hover{
+  text-decoration: none;
+}
+.room-link:hover{
+  .room-content{
+    background-color: #23292985;
+    opacity: 1;
+  }
+}
+.room-box{
+  padding-right: 5px;
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+.room-bg{
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+.room-content{
+  position: relative;
+  width: 100%;
+  height: 250px;
+  opacity: 0;
+  color: $white;
+  transition: all 1s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.room-tit{
+  font-size: 28px;
+  font-weight: bold;
+  &::after{
+    content: '';
+    display: block;
+    width: 30%;
+    height: 3px;
+    margin: 5px auto 0 auto;
+    transition: width .5s;
+    background: $white;
+  }
+}
+.normal,
+.holiday{
+  font-size: 18px;
+  position: absolute;
+  bottom: 10px;
+}
+.normal{
+  left: 20px;
+}
+.holiday{
+  right: 20px;
+}
