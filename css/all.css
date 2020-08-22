@@ -137,6 +137,7 @@ li {
   flex-wrap: wrap; }
 
 .amenities-list li {
+  letter-spacing: 2px;
   color: #d6d2ce; }
   .amenities-list li.active {
     color: #1e2321; }
