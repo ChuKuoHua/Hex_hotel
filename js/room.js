@@ -14,8 +14,8 @@ axios.get(url).then((res) => {
 	infoRoom(roomData);
   amenitiesRoom(roomData);
   document.querySelector('.loading-box').classList.add('active');
+  document.querySelector('.container').classList.remove('active');
 });
-
 // 照片切換
 function photos(){
   const imgLa = document.querySelector('.img-la');

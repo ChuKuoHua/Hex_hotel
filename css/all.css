@@ -81,6 +81,9 @@ a:hover {
 .holiday {
   right: 20px; }
 
+.container.active {
+  display: none; }
+
 li {
   list-style: none; }
 
