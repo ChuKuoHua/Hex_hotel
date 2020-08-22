@@ -8,6 +8,7 @@ axios.defaults.headers['Authorization'] = `Bearer ${token}`;
 axios.get(url).then((res) => {
   data = res.data.items;
   render(data);
+  document.querySelector('.loading-box').classList.add('active');
 });
 
 function render(){

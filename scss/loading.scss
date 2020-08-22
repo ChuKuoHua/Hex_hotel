@@ -1,0 +1,13 @@
+.loading-box{
+  height: 100vh;
+  background: #32353463;
+  right: 0;
+  left: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &.active{
+    display: none;
+  }
+}
